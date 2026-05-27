@@ -2,7 +2,7 @@
 
 **What this is:** **SARMAŞIK**, a Turkish cinematic techno-myth / revenge trilogy. **Book I "NAZAR" is COMPLETE** (Prologue + 15 chapters) and ships as a static "dijital kodeks" web reader. Output language = **Turkish**.
 
-**Read first, in order:** `CANON-LOCK.md` → `PROJECT-STATE.md` → `DEPLOY-STATE.md` → `reports/BOOK-I-CONSTITUTION-TR.md` (Book I governing doc) → `reports/NOVEL-BLUEPRINT-CINEMATIC-REVISION-TR.md` + `reports/DNA-REVISION-REPORT-TR.md` + `reports/FINAL-MINI-REVISION-REPORT-TR.md`.
+**Read first, in order:** `SESSION-HANDOVER.md` (full session memory — what's done + what's next) → `CANON-LOCK.md` → `PROJECT-STATE.md` → `DEPLOY-STATE.md` → `reports/BOOK-I-CONSTITUTION-TR.md` (Book I governing doc) → `reports/NOVEL-BLUEPRINT-CINEMATIC-REVISION-TR.md` + `reports/DNA-REVISION-REPORT-TR.md` + `reports/FINAL-MINI-REVISION-REPORT-TR.md`.
 
 ## Workflow (proven, keep it)
 Write in **phases** (~2 chapters each) → **MANDATORY 7-point QA** before continuing (continuity · chronology · contradiction · character-voice · emotional · prose · canon) → **commit + push** (Vercel). Clean cinematic Turkish, **not purple**. **Only fix objective issues; never cosmetic-rewrite.**
@@ -26,7 +26,7 @@ Write in **phases** (~2 chapters each) → **MANDATORY 7-point QA** before conti
 Cover gate = a closed VOLUME (front cover + back board + thickness + spine), textless open-invitation, opens on tap/click/Enter. **CSS-only** transitions; **no rAF / parallax / GPU abuse / CLS**; `prefers-reduced-motion` honored. No heavy animation/video. Keep it premium-restrained.
 
 ## KNOWN NON-BLOCKING ISSUES
-1. **COVER TITLE MISMATCH (needs author action).** The provided `images/*.png` are AI cover *concepts* with **placeholder titles** — front (`Ana_kapak`) reads **"SPACE"**, back (`Yardımcı_1`) reads **"IVY"** — plus a **fictional author "Daniel Marlowe"** and a fake blurb. They are **NOT** "SARMAŞIK / NAZAR" and front≠back titles. Art is on-theme; **text must be regenerated** with the correct title/author before real publication. (Integrated as instructed; flag stands.)
+1. **COVER TITLE MISMATCH (needs author action).** The provided `images/*.png` are AI cover *concepts* with **placeholder titles** — front (`Ana_kapak`) reads **"SPACE"**, back (`Yardımcı_1`) reads **"IVY"** — plus a **fictional author "Daniel Marlowe"** and a fake blurb. They are **NOT** "SARMAŞIK / NAZAR" and front≠back titles. Art is on-theme; **text must be regenerated** with the correct title/author before real publication. (Integrated as instructed; flag stands.) → **Replacement TEXT-FREE prompts now prepared in `FINAL-COVER-PROMPTS-TR.md` (3 front + 2 back, GPT Images 2.0).** Next: author generates → integrate (optimize → assets → in-engine title typography → verify → commit). See `SESSION-HANDOVER.md §5(A)`.
 2. Back cover is currently a subtle **peeking back-board** (engine-safe), not a full flip/showcase. Full back-cover reveal = optional future enhancement.
 3. **Vercel deploy unverifiable from the agent side** (MCP scope). A one-time GitHub→Vercel import may be needed. See DEPLOY-STATE.
 4. **No headless browser here** → do the final pixel/animation check on a Vercel preview (desktop + mobile).

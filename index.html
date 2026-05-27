@@ -15,16 +15,17 @@
     <meta property="og:type" content="book" />
     <meta property="og:title" content="SARMAŞIK · Nazar" />
     <meta property="og:description" content="Görülmek, işaretlenmektir. Her şeyi gören sistem, yalnızca göremediği şeyden korkar — yakın-gelecek tekno-mit." />
-    <meta property="og:image" content="assets/cover.svg" />
+    <meta property="og:image" content="assets/cover.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
 
     <!-- Kapak görselini erkenden getir (eşik hızlı boyansın) -->
-    <link rel="preload" as="image" href="assets/cover.svg" type="image/svg+xml" fetchpriority="high" />
+    <link rel="preload" as="image" href="assets/cover.webp" type="image/webp" fetchpriority="high" />
 
     <link rel="stylesheet" href="styles/themes.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/animations.css" />
     <link rel="stylesheet" href="styles/cover.css" />
+    <link rel="stylesheet" href="styles/cover-physical.css" />
 
     <!-- Düşük güç modu tespiti — ilk boyamadan önce uygulanır. -->
     <script>
@@ -53,13 +54,15 @@
     <!-- ════════════ GİRİŞ EŞİĞİ — KAPAK (kodeks bunun ardında, görünmeden kurulur) ════════════ -->
     <div id="cover-gate" class="cover-gate" role="dialog" aria-modal="true" aria-label="SARMAŞIK: Nazar — kapak">
         <button id="cover-open" class="book3d" type="button" aria-label="SARMAŞIK: Nazar — kitabı aç">
+            <span class="book3d__back" aria-hidden="true"></span>
             <span class="book3d__inside" aria-hidden="true"></span>
             <span class="book3d__page" aria-hidden="true"></span>
             <span class="book3d__leaf">
                 <picture>
-                    <img class="book3d__cover" src="assets/cover.svg"
-                         width="1024" height="1536"
-                         alt="SARMAŞIK: Nazar — kapak: gözetim açıklığına dönüşmüş bir göz; merkezinde, sistemin göremediği koyu bir boşluk."
+                    <source srcset="assets/cover.webp" type="image/webp" />
+                    <img class="book3d__cover" src="assets/cover.jpg"
+                         width="1022" height="1536"
+                         alt="SARMAŞIK: Nazar — ön kapak: her şeyi gören bir gözetim gözü, panoptikon bir şehir ve yalnız bir figür."
                          decoding="async" fetchpriority="high" />
                 </picture>
                 <span class="book3d__spine" aria-hidden="true"></span>

@@ -48,7 +48,7 @@ window.SARMASIK.entries.push({
 
         "Annesi öldü, ve Kerem bunu neredeyse hissetmedi, ve hissetmediği için, sonradan, en çok bunun için utandı.",
 
-        "Nazlı, kızının ölümünden sonra, hastane yatağında, sönmeyi bekleyen bir mum gibiydi, ve mum söndü — sessizce, bir gece, kimse yanında değilken, ya da belki kızı yanındayken, kim bilir. Kalp, dediler yine; keder, demek istediler ama diyemediler, çünkü keder bir ölüm sebebi olarak yazılmaz, oysa en sık öldüren odur. Bir aile, birkaç ay içinde, dörtten bire indi: önce Onur değil — Onur aileden değildi ama aileydi — sonra baba, sonra kız, şimdi anne. Geriye Kerem kaldı. Bir tek Kerem. Ve Kerem, annesinin cenazesinde — üçüncü cenaze, aynı yıl, aynı mezarlık, mezarlık artık onu tanıyordu — hiçbir şey hissetmedi. Donmuştu. Ve donmuş bir adam, gömerken bile gömülür.",
+        "Nazlı, kızının ölümünden sonra, hastane yatağında, sönmeyi bekleyen bir mum gibiydi, ve mum söndü — sessizce, bir gece, kimse yanında değilken, ya da belki kızı yanındayken, kim bilir. Kalp, dediler yine; keder, demek istediler ama diyemediler, çünkü keder bir ölüm sebebi olarak yazılmaz, oysa en sık öldüren odur. Bir aile, birkaç ay içinde, dörtten bire indi: önce Onur değil — Onur aileden değildi ama aileydi — sonra baba, sonra kız, şimdi anne. Geriye Kerem kaldı. Bir tek Kerem. Ve Kerem, annesinin cenazesinde — dördüncü cenaze, aynı yıl, aynı mezarlık, mezarlık artık onu tanıyordu — hiçbir şey hissetmedi. Donmuştu. Ve donmuş bir adam, gömerken bile gömülür.",
 
         { style: "hr" },
 
